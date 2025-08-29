@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+#main-title {
+    color: darkblue;
+    text-align: center;
+}
+
+.about {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+p::first-letter {
+    color: crimson;    
+    font-size: 200%;     
+    font-weight: bold;    
+    text-transform: uppercase; 
+}
+.highlight {
+    color: green;
+    font-weight: bold;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.movies {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.cities {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+}
